@@ -8,13 +8,13 @@
 
 
 html {
-    background-color:#051218;
-    color: white;
+    background-color:#cde2ec;
+    /* color: white; */
 }
 
 body {
-    background-color:#051218;
-    color: white;
+    background-color:#cde2ec;
+    color: black;
     max-width: 1100px;
     margin: 0px auto;
 }
@@ -35,7 +35,7 @@ p {
 /* ********** Alphabetical Below Here ********** */
 
 a {
-    color: #74919F;
+    color: #1b2124;
     cursor: pointer;
     text-decoration: none;
 }
@@ -89,8 +89,8 @@ a strong:hover {
 }
 
 .button {
-    background-color: #34596f;
-    border-color: #34596f;
+    background-color: #5a727e;
+    border-color: #5a727e;
     color: #fff;
 }
 
@@ -119,7 +119,7 @@ a strong:hover {
 }
 
 .card {
-    background-color:#051218;
+    background-color:#34596F;
     box-shadow: none;
     color: white;
 }
@@ -129,7 +129,7 @@ a strong:hover {
 }
 
 .card-footer-item {
-    background-color: #34596f;
+    background-color: #cde2ec;
     border-color: #34596f;
     border-radius: 6px;
     color: #fff;
@@ -165,7 +165,7 @@ a strong:hover {
 }
 
 .content {
-    color: #fff;
+    color: black;
     margin: 0.75rem;
 }
 
@@ -193,7 +193,7 @@ a strong:hover {
 }
 
 .footer {
-    background-color:#051218;
+    background-color:#cde2ec;
 }
 
 .heading {
@@ -208,7 +208,7 @@ a strong:hover {
 }
 
 .hero.is-info {
-    background-color:#192b36;
+    background-color:#5a727e;
     color: rgb(216, 216, 216);
 }
 
@@ -238,13 +238,13 @@ a strong:hover {
 }
 
 .navbar {
-    background-color:#051218;
+    background-color:#cde2ec;
     max-width: 1100px;
     margin: 0px auto;
 }
 
 .navbar-item, .navbar-link {
-    color: white;
+    color: #34596f;
 }
 
 .navbar-burger {
@@ -252,7 +252,7 @@ a strong:hover {
 }
 
 .navbar-menu {
-    background-color: #051218;
+    background-color: #cde2ec;
 }
 
 .section {

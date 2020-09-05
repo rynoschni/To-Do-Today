@@ -14,7 +14,7 @@
     <!-- CSS Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css" rel="stylesheet">
     <link href="styles/carousel.css" rel="stylesheet">
-    <link href="styles/styles.css" rel="stylesheet">
+     <link id="stylesheet1" href="styles/styles-light.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -49,6 +49,16 @@
                     </a>
                 </div>
             </div>
+                <div style="width:auto; height:5rem;margin-top:3rem;" class="wrapper">
+                    <button style="background-color:rgba(247,140,0,0.5)" type="button" id="Day" class="btn btn-primary"
+                    data-toggle="button" aria-pressed="false">
+                    Light Mode
+                    </button>
+                    <button style="background-color:rgba(85, 76, 65, 0.5)" type="button" id="Night" class="btn btn-primary"
+                    data-toggle="button" aria-pressed="false">
+                    Dark Mode
+                    </button>
+                </div>
         </nav>
     </div>
     <!-- Trigger/Open The Modal -->
@@ -152,6 +162,7 @@
                     <p class="content" id="weatherFeelsLikeTemp"></p>
                     <p class="content" id="weatherHumid"></p>
                     <p class="content" id="weatherWind"></p>
+                    <img src="" alt="" id='weatherIcon'>
                 </div>
             </div>
         </div>
@@ -274,6 +285,9 @@
             <p>
                 <strong>Built</strong> by <a href="https://github.com/Mjheverett/To-Do-Today">Dylan Cooper, Matthew Everett, Justin Gardner and Harmony Trevena</a>.  
             </p>
+            <p>
+                <strong>Edited</strong> by <a href="https://github.com/rynoschni/To-Do-Today">Jai Gokhale, Luke Brazil, Ryan Schniederjan and Tait Loughridge</a>.
+            </p>
         </div>
     </footer>
 
@@ -283,4 +297,5 @@
 <script src="scripts/getPredict.js"></script>
 <script src="scripts/getZom.js"></script>
 <script src="scripts/scripts.js"></script>
+<script src="scripts/dayNight.js"></script>
 </html>
